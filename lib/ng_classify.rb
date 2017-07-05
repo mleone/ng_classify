@@ -55,5 +55,5 @@ module NgClassify
     end
   end
 
-  Sprockets.register_engine '.ng-classify', NgClassify::Template
+  Sprockets.register_engine '.ng-classify', NgClassify::Template, silence_deprecation: true
 end
